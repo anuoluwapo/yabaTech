@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Students Login Portal</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- Dropdown Structure -->
+	<ul id='CoursesDrop' class='dropdown-content'>
+		<li><a href="#!">Computer Science</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Bussiness Adminstration</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Agric Science</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Performing Arts</a></li>
+	</ul>
+	<ul id='exploreDrop' class='dropdown-content'>
+		<li><a href="#!">Support Service</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Academic Centers</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Entrepreneurship Programme</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Community Programmes</a></li>
+	</ul>
+	<ul id="publicationDrop" class='dropdown-content'>
+		<li><a href="#!">School Publcations</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Research Reports</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Educational Resource Center</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">E-Journals</a></li>
+	</ul>
+	<ul id="resoucesDrop" class='dropdown-content'>
+		<li><a href="#!">E-Library</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Electronic Catalog</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Online Education</a></li>
+		<li class="divider"></li>
+		<li><a href="#!">Distant Learning</a></li>
+	</ul>
+	<!-- Menu Structure  for first Navigation Bar -->
+	<nav class="green darken-1">
+		<div class="nav-wrapper">
+			<ul class="left contacts">
+				<li>
+					<a href="log_reg.html"><i class="icon ion-android-lock left"></i>Login/Register</a>
+				</li>
+				<li><a href="tel:07082207416"><i class="icon ion-ios-telephone left"></i>(+234)-813-345-6789</a></li>
+				<li><a href="mailto:anuoluwapokudirat@yahoo.com"><i class="icon ion-android-mail left"></i>email@yabatech.com</a></li>
+			</ul>
+			<ul class="right">
+				<li><a href="http://www.facebook.com" target="_blank"><i class="ion-social-facebook"></i></a></li>
+				<li><a href="http://www.twitter.com" target="_blank"><i class="ion-social-twitter"></i></a></li>
+				<li><a href="http://www.google.com" target="_blank"><i class="ion-social-google"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Menu Structure for the second Navigation Bar -->
+	<nav class="green">
+		<div class="nav-wrapper container">
+			<a href="index.html" class="brand-logo">Yabatech</a>
+			<ul class="right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#" class="dropdown-button" data-activates="CoursesDrop">Courses</a></li>
+				<li><a href="#" class="dropdown-button" data-activates="exploreDrop">Explore</a></li>
+				<li><a href="#" class="dropdown-button" data-activates="publicationDrop">Publications</a></li>
+				<li><a href="#" class="dropdown-button" data-activates="resoucesDrop">E-Resources</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="row container">
+		<form class="col l6" id="studentLoginPortal">
+			<fieldset>
+				<h6 class="green-text">STUDENT LOGIN PORTAL</h6>
+				<div class="row">
+					<div class="input-field col s6">
+						<input type="text" id="first_name" class="validate">
+						<label for="user_name">Username:</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s6">
+						<input type="password" id="password" class="validate">
+						<label for="password">Password:</label>
+					</div>
+				</div>
+				<div style="margin-top: -1.33em;">
+					<a href="#" class="green-text">Forgot password?</a>
+				</div>
+				<div class="button center">
+					<a href="#" class="btn green waves-effect waves-yellow">Login</a>
+					<a href="#" class="btn green waves-effect waves-yellow">Reset</a>
+				</div>
+			</fieldset>
+		</form>
+		<div class="col l6 instruction" style="margin: -18em 37em;">
+			<h6 class="green-text">INSTRUCTION</h6>
+			<p>This log-in is for both RETURNING and FRESH students.</p>
+			<ul>
+				<li><span class="red-text">RETURNING students</span> : You are required to log-in with matriculation number as username and
+					password as surname.</li>
+				<li><span class="red-text">FRESH students</span> : Every fresh student should log-in with their application number as username
+					and surname as password.</li>
+			</ul>
+		</div>
+	</div>
+	<footer style="margin-top: 11.3em;">
+		<div class="footer-copyright green darken-1">
+			<div class="center foot">
+				&copy 2016. Anuoluwapo Web | Tech.
+				<!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>

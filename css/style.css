@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav:nth-child(1) {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+nav:nth-child(2) .container {
+    width: 90%;
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+    color: #43a047;
+}
+
+nav.green ul.contacts li a {
+    border-right: 1px dotted yellow;
+    font-size: 0.8em;
+}
+
+nav.green ul.contacts li a i {
+    font-size: 1.5em;
+}
+nav.darken-1 ul.right li a i{
+    font-size: 1.3em;
+}
+nav:first-child,
+nav:first-child .nav-wrapper i,
+nav:first-child a.button-collapse,
+nav:first-child a.button-collapse i {
+    height: 40px;
+    line-height: 40px;
+}
+
+nav:nth-child(2),
+nav:nth-child(2) .nav-wrapper i,
+nav:nth-child(2) a.button-collapse,
+nav:nth-child(2) a.button-collapse i {
+    height: 80px;
+    line-height: 80px;
+}
+
+.slider {
+    margin-top: 1em;
+}
+
+.slider .indicators {
+    bottom: 5em;
+    z-index: 10;
+}
+
+.slider .indicators .indicator-item {
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: #ffc107;
+}
+
+#officers i {
+    font-size: 2em;
+    color: #e1992d;
+}
+
+.collection .collection-item.avatar .circle {
+    width: 4em;
+    height: 4em;
+    left: 0.5em;
+}
+
+.slider .slides .caption.blue-grey {
+    background-color: rgba(0, 0, 0, 0.47) !important;
+}
+
+.slider .slides li .caption {
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+
+.slider .slides li .caption.left-align {
+    padding-left: 2em;
+}
+
+.slider .slides li .caption.right-align {
+    padding-right: 2em;
+}
+ul.slides img.responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+
+/********************************* BEST STUDENT / LECTURER OF THE MONTH *************************************/
+#std1 img, #std2 img, #std3 img{
+    height: 15em;
+    width: 20em;
+    border-radius: 50%;
+    margin-top: 1.5em;
+    padding: 0 2em;
+}
+
+div .collection-item p {
+    padding: 0 1em;
+}
+
+#event div {
+    margin: 0 -2em;
+}
+
+#event div p {
+    margin: -5em 2em 0;
+    font-size: 0.9em;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #bdbdbd;
+}
+#event div p a {
+    font-size: 0.9em;
+    color: rgb(0, 102, 0);
+}
+
+#event div.month,
+div.date {
+    width: 4em;
+}
+
+#event div.date {
+    height: 3em;
+}
+.gallery div h5{
+    width: 16em;
+    height: 2.7em;
+    padding: 0.9em 3em;
+}
+.gallery div.row{
+    padding: 0 3em;
+}
+div#event ul li.avatar{
+    height: 6.55em;
+}
+div.slideController#pre, div.slideController#next{
+    position: absolute;
+    margin-bottom: 5em;
+}
+div.gallery div.slider ul.slides li img{
+    height: 400px;
+}
+div.gallery .slider .indicators{
+   bottom: 4em;
+}
+/*Footer*/
+div #email {
+    border: none;
+    background-color: white;
+    color: #000;
+}
+div #submitBtn {
+    margin: 0 2.5em;
+}
+/*********************************** Student Login Portal***************************************************/
+form#studentLoginPortal, form#registration{
+    padding-top: 4em;
+}
+form#studentLoginPortal .input-field{
+    padding-top: -8em;
+}
+div.row fieldset{
+    border-radius: 12px;
+    border: 1px solid green;
+}
+div.button a.btn{
+    width: 6em;
+    height: 1.9em;
+    padding: 0px 2px;
+}
+div.instruction ul li{
+    list-style-type: disc;
+}
+/********************************** Student Portal ***************************************/
+div#menuNav{
+  margin-top: 3.3em;
+}
+#menuNav nav{
+    background-color: #4caf50;
+}
+#menuNav nav ul{
+    padding: 0 2em;
+}
+#menuNav nav p{
+    margin: 0em 5em;
+    font-size: 1.3em;
+}
+div.welcomeLink ul li{
+    display: inline-block;
+}
+div.welcomeLink ul li{
+    padding: 0 1em;
+}
+div.menuList{
+    border: 1px solid rgb(198, 211, 222);
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    cursor: pointer;
+}
+div.menuList ul li.list{
+    padding: 0.5em 0;
+}
+/*div.menuList h6{
+    border-bottom: 1px solid black;
+}*/
+div.menuList ul li a{
+    color: rgb(7, 7, 114);
+}
+div.std-details{
+    padding-left: 5em;
+}
+div.std-details table tr td{
+    padding: 0 0;
+    /*background-color: green;*/
+}
+div.std-details img{
+    width: 120px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 3.6em 8em;
+    padding: 4px;
+}
+div.menuList hr{
+    color: aliceblue;
+}
+footer div.foot{
+    height: 2.5em;
+    padding: 0.5em 0;
+}
+::-moz-placeholder {
+  color: black;
+  text-align: center;
+}
+::-webkit-any(placeholder){
+    color: black;
+    text-align: center;
+}
+/*********************************** Staff Login Portal***************************************************/
+div#brg{
+    background-image: url('../images/map.png');
+    width: 100em;
+    height: 30em;
+    background-repeat: no-repeat;
+}
+div#brg h6{
+    font-size: 2.3em;
+    padding-top: 1em;
+}
+div#brg form div.input-field{
+    width: 40em;
+    margin-left: 15em;
+}
+div#brg div.forget a{
+    padding: 0 16em;
+    color: green;
+}
+/***************************************ADMINISTRATIR LOGIN *************************************************************/
+div#adminLogin{
+    width: 38em;
+}
+div#adminLogin form{
+    margin-top: 5em;
+    padding: 1.5em 0em;
+    border: 1px solid lightgrey;
+    background-color: #fffde7;
+    border-radius: 5px;
+}
+div#adminLogin fieldset div.input-field{
+   margin: 0em 39px;
+}
+div#adminLogin form fieldset{
+    width: 23em;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+}
